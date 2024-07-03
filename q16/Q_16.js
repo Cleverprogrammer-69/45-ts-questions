@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.guests = void 0;
+exports.guests = ["Roach", "Ahad", "Mac", "John"];
+console.log("We found a bigger table");
+exports.guests.unshift("Markrov");
+exports.guests.splice(exports.guests.length / 2, 0, "Kim Jhon");
+exports.guests.push("Donald");
+exports.guests.map((guest) => console.log(`${guest}! You're invited to dinner tonight.`));
+console.log("Q_16 end");
